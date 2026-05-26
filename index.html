@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brewhaus — Artisan Coffee</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav id="navbar" class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="nav-brand" href="#hero">Brew<span>haus</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <a class="btn-gold" href="#contact" style="padding:0.55rem 1.4rem;font-size:0.78rem;letter-spacing:0.14em;">Order Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 hero-content">
+        <div class="hero-eyebrow">☕ Single Origin · Small Batch · Ethically Sourced</div>
+        <h1 class="hero-title">
+          Every Cup,<br>
+          <em>A Story.</em>
+        </h1>
+        <p class="hero-sub">
+          Hand-roasted in small batches. Sourced from family farms across Ethiopia, Colombia, and Yemen. Experience coffee the way it was always meant to taste.
+        </p>
+        <div class="hero-cta d-flex flex-wrap gap-3">
+          <a href="#contact" class="btn-gold">Order Now</a>
+          <a href="#products" class="btn-outline-gold">Explore Blends</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5 reveal">
+        <div class="about-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=900&q=80"
+            alt="Our roastery"
+            loading="lazy"
+          />
+          <div class="about-badge">
+            <span class="big">12+</span>
+            <span class="small">Years<br>of Craft</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 offset-lg-1 reveal reveal-delay-1">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">Born from a <em>Passion</em> for the Perfect Cup</h2>
+        <div class="divider"></div>
+        <p style="color:var(--text-mid);line-height:1.9;margin-bottom:1.5rem;">
+          Brewhaus was founded in 2012 by two friends who believed that great coffee was worth traveling the world for. We visited remote farms in Ethiopia's Yirgacheffe valleys, Colombia's cloud-forested mountains, and Yemen's ancient terraces — forming direct partnerships built on respect and fair pay.
+        </p>
+        <p style="color:var(--text-mid);line-height:1.9;margin-bottom:2.5rem;">
+          Every bag that leaves our roastery carries the farmer's name on the label. Because behind every great cup is a human story — and we think that story deserves to be told.
+        </p>
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="about-stat">
+              <div class="num">48+</div>
+              <div class="label">Farm Partnerships</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-stat">
+              <div class="num">9</div>
+              <div class="label">Origin Countries</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-stat">
+              <div class="num">100%</div>
+              <div class="label">Specialty Grade</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-stat">
+              <div class="num">40K+</div>
+              <div class="label">Happy Customers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRODUCTS ══ -->
+<section id="products">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="section-label">Our Menu</span>
+      <h2 class="section-title">Signature <em>Blends</em></h2>
+      <div class="divider mx-auto"></div>
+      <p style="color:var(--text-mid);max-width:520px;margin:0 auto;font-size:0.95rem;line-height:1.8;">
+        Three flagship roasts — each with a distinct personality. Brewed for the curious, the devoted, and the everyday explorer.
+      </p>
+    </div>
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4 reveal reveal-delay-1">
+        <div class="product-card card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700&q=80" alt="Ethiopian Sunrise" loading="lazy" />
+            <span class="product-tag">Bestseller</span>
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn">Order This Blend →</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="testi-stars mb-2">★★★★★</div>
+            <h3 class="product-name">Ethiopian Sunrise</h3>
+            <div class="flavor-chips">
+              <span class="chip">Blueberry</span>
+              <span class="chip">Jasmine</span>
+              <span class="chip">Citrus</span>
+            </div>
+            <p class="product-desc">A natural-process Yirgacheffe with intoxicating berry sweetness and a floral finish that lingers like a sunrise memory.</p>
+            <div class="product-footer">
+              <div class="product-price">$22 <span>/ 250g</span></div>
+              <a href="#contact" class="btn-gold" style="padding:0.5rem 1.1rem;font-size:0.75rem;">Add →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 reveal reveal-delay-2">
+        <div class="product-card card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700&q=80" alt="Colombian Dark" loading="lazy" />
+            <span class="product-tag">New Harvest</span>
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn">Order This Blend →</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="testi-stars mb-2">★★★★★</div>
+            <h3 class="product-name">Colombian Dark</h3>
+            <div class="flavor-chips">
+              <span class="chip">Dark Chocolate</span>
+              <span class="chip">Caramel</span>
+              <span class="chip">Walnut</span>
+            </div>
+            <p class="product-desc">Full-bodied and bold, this Huila dark roast is the morning ritual for those who mean business — rich, smooth, unapologetic.</p>
+            <div class="product-footer">
+              <div class="product-price">$24 <span>/ 250g</span></div>
+              <a href="#contact" class="btn-gold" style="padding:0.5rem 1.1rem;font-size:0.75rem;">Add →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 reveal reveal-delay-3">
+        <div class="product-card card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=700&q=80" alt="Yemeni Gold" loading="lazy" />
+            <span class="product-tag">Rare · Limited</span>
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn">Order This Blend →</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="testi-stars mb-2">★★★★★</div>
+            <h3 class="product-name">Yemeni Gold</h3>
+            <div class="flavor-chips">
+              <span class="chip">Dried Fruit</span>
+              <span class="chip">Spice</span>
+              <span class="chip">Honey</span>
+            </div>
+            <p class="product-desc">Ancient terroir, centuries of tradition. This sun-dried Haraz bean is the rarest coffee we carry — complex, earthy, and extraordinary.</p>
+            <div class="product-footer">
+              <div class="product-price">$38 <span>/ 250g</span></div>
+              <a href="#contact" class="btn-gold" style="padding:0.5rem 1.1rem;font-size:0.75rem;">Add →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS ══ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="section-label">Customer Reviews</span>
+      <h2 class="section-title" style="color:#fff;">What Our <em>Community</em> Says</h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-md-4 reveal reveal-delay-1">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"The Ethiopian Sunrise literally changed the way I think about coffee. I used to dump creamer in everything — now I drink it black because I don't want to miss a single note."</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/100?img=47" alt="Sarah K." class="testi-avatar" />
+            <div>
+              <div class="testi-name">Sarah K.</div>
+              <div class="testi-role">Home Barista · New York</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal reveal-delay-2">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"I've ordered from 20+ roasters worldwide. Brewhaus is in a league of its own. The Yemeni Gold is an experience, not just a drink. Worth every penny of the premium."</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/100?img=12" alt="James R." class="testi-avatar" />
+            <div>
+              <div class="testi-name">James R.</div>
+              <div class="testi-role">Coffee Reviewer · London</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal reveal-delay-3">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"We switched our entire café's supply to Brewhaus two years ago and never looked back. Our customers ask about the beans constantly. Fast shipping, flawless freshness."</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/100?img=32" alt="Leila M." class="testi-avatar" />
+            <div>
+              <div class="testi-name">Leila M.</div>
+              <div class="testi-role">Café Owner · Dubai</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-5 reveal">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Ready to <em>Order?</em></h2>
+        <div class="divider"></div>
+        <p style="color:var(--text-mid);line-height:1.9;margin-bottom:2.5rem;">
+          Whether you're stocking your home, your café, or placing a wholesale inquiry — we'd love to hear from you. Fill in the form and we'll get back to you within 24 hours.
+        </p>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h6>Email Us</h6>
+            <p>hello@brewhaus.coffee</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <h6>Call Us</h6>
+            <p>+1 (800) 555-BREW</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <h6>Visit Our Roastery</h6>
+            <p>142 Grind St., Portland, OR 97201</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <h6>Hours</h6>
+            <p>Mon–Sat: 8am – 6pm · Sun: 10am – 4pm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 offset-lg-1 reveal reveal-delay-1">
+        <div style="background:#fff;padding:2.5rem;border-radius:2px;box-shadow:0 4px 32px rgba(26,10,0,0.07);">
+          <div id="contactForm">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="Sarah" />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Johnson" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="sarah@example.com" />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Phone</label>
+                <input type="tel" class="form-control" placeholder="+1 555 000 0000" />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Inquiry Type</label>
+                <select class="form-select">
+                  <option>Personal Order</option>
+                  <option>Café / Wholesale</option>
+                  <option>Gift Subscription</option>
+                  <option>General Question</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Preferred Blend</label>
+                <select class="form-select">
+                  <option value="">— Select a blend —</option>
+                  <option>Ethiopian Sunrise</option>
+                  <option>Colombian Dark</option>
+                  <option>Yemeni Gold</option>
+                  <option>Surprise Me!</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" placeholder="Tell us about your order, your brewing method, or any questions you have..."></textarea>
+              </div>
+              <div class="col-12 mt-1">
+                <button class="btn-submit" onclick="submitForm()">
+                  <i class="fas fa-paper-plane me-2"></i>Send My Order Request
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle" style="color:var(--gold);"></i>
+            <h4 style="font-family:'Playfair Display',serif;color:var(--espresso);margin-bottom:0.5rem;">Thank you!</h4>
+            <p style="color:var(--text-mid);font-size:0.92rem;">We've received your request and will reach out within 24 hours. In the meantime, enjoy the aroma.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="nav-brand" href="#hero">Brew<span>haus</span></a>
+        <p style="font-size:0.88rem;line-height:1.8;max-width:320px;margin-top:0.75rem;">
+          Roasting exceptional single-origin coffee since 2012. From farm to your cup — with honesty, craft, and love.
+        </p>
+        <div class="social-icons mt-1-5" style="margin-top:1.25rem;">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1">
+        <h6 style="color:rgba(255,255,255,0.7);font-size:0.75rem;letter-spacing:0.18em;text-transform:uppercase;margin-bottom:1rem;">Navigate</h6>
+        <div class="footer-links">
+          <a href="#about">About Us</a>
+          <a href="#products">Our Blends</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 style="color:rgba(255,255,255,0.7);font-size:0.75rem;letter-spacing:0.18em;text-transform:uppercase;margin-bottom:1rem;">Shop</h6>
+        <div class="footer-links">
+          <a href="#products">Ethiopian Sunrise</a>
+          <a href="#products">Colombian Dark</a>
+          <a href="#products">Yemeni Gold</a>
+          <a href="#contact">Wholesale</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h6 style="color:rgba(255,255,255,0.7);font-size:0.75rem;letter-spacing:0.18em;text-transform:uppercase;margin-bottom:1rem;">Newsletter</h6>
+        <p style="font-size:0.85rem;margin-bottom:1rem;">New harvests, brew guides & exclusive offers.</p>
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="your@email.com" style="background:rgba(255,255,255,0.07);border-color:rgba(255,255,255,0.12);color:#fff;font-size:0.85rem;" />
+          <button class="btn-gold" style="padding:0.55rem 1rem;font-size:0.75rem;border-radius:0 var(--radius) var(--radius) 0;">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Brewhaus Coffee Roasters. All rights reserved. · Crafted with ☕ & care.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script>
+  /* Navbar scroll effect */
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* Scroll reveal */
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => observer.observe(el));
+
+  /* Form submit simulation */
+  function submitForm() {
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    form.style.display = 'none';
+    success.style.display = 'block';
+  }
+
+  /* Active nav link on scroll */
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+    });
+    navLinks.forEach(link => {
+      link.style.color = link.getAttribute('href') === '#' + current
+        ? 'var(--gold)'
+        : '';
+    });
+  });
+</script>
+</body>
+</html>
